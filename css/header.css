@@ -1,0 +1,131 @@
+
+.header {
+  position: relative;
+	height: 100vh;
+  background: url(../images/header-bg.jpg) 50% 50% no-repeat;
+  background-size: cover;
+}
+
+.header__topblock {
+  padding: 40px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__topblock--logo {
+	display: inline-block;
+  vertical-align: middle;
+}
+
+.header__topblock--link {
+  color: #ffffff;
+  font-family: "Myriad Pro", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 12px;
+  text-decoration: none;
+}
+
+.header__topblock--menu {
+	display: inline-block;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.nav__item {
+  display: inline-block;
+}
+
+.nav__link {
+  padding: 10px 22px;
+  color: #ffffff;
+  font-family: "Myriad Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 12px;
+  text-decoration: none;
+  transition-duration: 0.2s;
+  border: 1px solid transparent;
+}
+
+.nav__link--active {
+  border: 1px solid #ffffff;
+  border-radius: 16px;
+  cursor: default;
+}
+
+.nav__link:hover {
+  border: 1px solid #ffffff;
+  border-radius: 16px;
+	transition: 0.2s ease-out;
+}
+
+.header__info {
+  margin: 0 auto;
+  max-width: 610px;
+}
+
+.header__title {
+  position: relative;
+  margin: 0;
+  padding: 180px 0 20px;
+  font-family: "Myriad Pro", sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 70px;  
+  text-transform: uppercase;
+  letter-spacing: 7px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.header__subtitle {
+	position: relative;
+  margin: 0;
+  padding: 0;
+  font-family: "Myriad Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;  
+  letter-spacing: 0.8px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.wrap-btn {
+  position: absolute;
+  left: 50%;
+  bottom: 80px;
+  transform: translateX(-50%);
+}
+
+.header__button {
+  position: relative;
+	display: block;
+  width: 36px;
+  height: 36px;
+	margin: 0 auto;
+	border-radius: 50%;
+	background-color: #19bd9a;
+  transition-duration: .6s;
+}
+
+.header__button:hover, 
+.header__button:focus {
+  box-shadow: -1px 1px 2px #f6f8de;
+  box-shadow: 0 2px 16px 0 #f6f8de;
+	transition: 0.6s ease-out;
+}
+
+.header__button:active {    color: #3d742f;
+  box-shadow: -2px 4px 8px #a7b027;
+  background-color: #f6f8de;
+}
+
+.header__button--img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

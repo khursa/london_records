@@ -1,0 +1,205 @@
+.contact {
+    border-bottom: 5px solid #000;
+    padding-bottom: 64px;
+}
+
+.contact__title {
+    padding: 75px 0 0;
+    color: #333b46;
+    font-size: 20px;
+    line-height: 12px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    font-family: "Myriad Pro", sans-serif;
+    font-weight: 400;
+}
+
+.contact__subtitle {
+    margin: 0 auto;
+    max-width: 510px;
+    padding: 45px 0 30px;
+    color: #81868e;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.7px;
+    text-align: center;
+    font-family: "Myriad Pro", sans-serif;
+    font-weight: 400;
+}
+
+.contact__box {
+    display: flex;
+    justify-content: space-between;
+    width: 81.4%;
+    margin: 0 auto;
+}
+
+.contact__col {
+    max-width: 287px;
+    text-align: center;
+}
+
+.contact__overlaybox {
+    position: relative;
+}
+
+.contact__overlay {
+    position: absolute;
+    height: 98%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition-duration: .4s;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: .9;
+}
+
+.contact__overlay:hover {
+    background-color: rgba(0, 0, 0, 0.65);
+    opacity: 1;
+	transition: .4s ease-out;
+}
+
+.contact__overlay img {
+    position: absolute;
+    text-align: center;
+    padding-top: 20%;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.contact__col a,
+.contact__col p {
+    color: #030303;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 24px;    
+    font-weight: 400;
+    line-height: 125px;
+    letter-spacing: 0.24px;
+    text-decoration: none;
+}
+
+form {
+    max-width: 939px;
+    margin: 0 auto;
+    padding: 100px 0 60px;
+}
+
+.form__fieldset {
+    border: none;
+}
+
+.input__width {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.input__width,
+textarea,
+input[type="submit"] {
+    width: 100%;
+}
+
+input {
+    display: inline-block;
+    width: 30%;
+    padding: 15px 20px 14px;
+}
+
+input::placeholder {
+    font-family: "Open Sans", sans-serif;
+}
+
+textarea {
+    display: block;
+    height: 190px;
+    resize:none;
+    margin-bottom: 40px;
+}
+
+input[type="submit"] {
+    background-color: #19bd9a;
+    color: #000000;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.16px;
+    padding: 22px 0;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    transition: 0.2s ease-out;
+    box-shadow: -1px 1px 2px gray;
+    box-shadow: 0 2px 16px 0 gray;
+}
+
+
+#map {
+    position: relative;
+    height: 496px;
+    width: 100%;
+    z-index: 99999;
+    background-image: url(../images/map.jpg);
+}
+
+.map__overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition-duration: .4s;
+    background-color: rgba(0, 0, 0, 0.75);
+    opacity: 1;
+}
+
+.map__link {
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    padding-top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    vertical-align: middle;
+    text-decoration: none;
+    line-height: 36px;
+}
+
+.map__link:hover {
+    text-decoration: underline;
+}
+
+.map__button {
+    position: relative;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: #19bd9a;
+    transition-duration: .6s;
+    z-index: 999;
+    vertical-align: middle;
+    margin: 0 12px;
+  }
+
+  .map__button:hover {
+      cursor: pointer;
+      transition: 0.2s ease-out;
+      box-shadow: -1px 1px 2px gray;
+      box-shadow: 0 2px 16px 0 gray;
+  }

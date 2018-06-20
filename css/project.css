@@ -1,0 +1,52 @@
+.project__info {
+    margin: 0 auto;
+
+    max-width: 490px;
+    text-align: center;
+    font-family: "Myriad Pro", sans-serif;
+    font-weight: 400;
+}
+
+.project__title {
+    padding: 75px 0 40px;
+    color: #333b46;
+    font-size: 20px;
+    line-height: 12px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.project__text {
+    padding-bottom: 35px;
+    color: #81868e;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 0.7px;
+}
+
+.project__photo {
+    display: flex;
+    position: relative;
+}
+
+.project__overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #555555;
+    opacity: .25;
+}
+
+.project__photo--1 {
+    width: 51.24%;
+}
+
+.project__photo--2 {
+    width: 24.67%;
+}
+
+.project__photo--3  {
+    width: 24.16%;
+}

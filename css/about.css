@@ -1,0 +1,57 @@
+.about {
+	display: flex;
+	justify-content: space-between;
+	width: 70.72%;
+	padding: 47px 0;
+}
+
+.about__info {
+	display: inline-block;
+	padding-left: 130px;
+}
+
+.about__photo {
+	display: inline-block;
+}
+
+.about__title {
+	padding-top: 63px;
+	color: #333b46;
+	font-family: "Myriad Pro", sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 12px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+
+.about__text {
+	max-width: 476px;
+	margin-top: 34px;
+	margin-bottom: 26px;
+	color: #81868e;
+	font-family: "Myriad Pro", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 25px;
+	letter-spacing: 0.7px;
+}
+
+.about__link {
+	padding: 12px 29px 11px;
+	color: #333b46;
+	font-family: "Open Sans", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 12px;
+	border-radius: 19px;
+	border: 1px solid #333b46;
+	text-decoration: none;
+    transition-duration: .6s;
+}
+
+.about__link:hover {
+	transition: 0.2s ease-out;
+	box-shadow: -1px 1px 2px gray;
+	box-shadow: 0 2px 16px 0 gray;
+}
